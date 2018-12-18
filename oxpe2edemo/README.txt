@@ -1,15 +1,22 @@
-This is the demo suite for oxpe2e (The Offline Cross-Program language End to End encryption utility)
+This is the demo suite for oxpe2e (The Offline Cross-Program language End to End encryption utility for IoT comms)
 
 To install:-
 
 First install the library.
 pip install oxpe2elib-<version>.tar.gz
 Then install this demo suite.
-pip install oxpe2e_alice2bob-<version>.tar.gz
+
+For MQTT client:-
+pip install oxpe2e-demo-mqtt-alice2bob-<version>.tar.gz
+pip install oxpe2e-demo-mqtt-bobfromalice-<version>.tar.gz
 
 To run:-
 
-python oxpe2e-alice2bob
+For MQTT client:-
+python env/bin/oxpe2eDemoMqttAlice2Bob.py
+python env/bin/oxpe2eDemoMqttBobFromAlice.py
+
+
 
 Released under the Apache v2 license.
 
